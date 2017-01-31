@@ -1,0 +1,400 @@
+/*general styles*/
+body {
+	position: relative;
+	font-family: 'Roboto Slab', 'Source Sans Pro', 'PT Sans', sans-serif;
+	color: #5A5A5E;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto 0 auto;
+}
+
+.header h1 {
+	margin-top: 40px;
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+/*navbar section */
+.navbar {
+	float: right;
+	background-color: black;
+	position: fixed;
+	width: 100%;
+	height: 70px;
+	top: 0;
+	z-index: 1;
+}
+
+.navbar ul {
+	float: right;
+	padding-right: 30px;
+}
+
+.navbar ul li {
+	display: inline-block;
+}
+
+.navbar a {
+	color: #FFF;
+	text-transform: uppercase;
+	letter-spacing: 0.03em;
+	/*transition: color 800ms;
+	-webkit-trnsition: color 600ms;*/
+	font-size: 1em;
+}
+
+.navbar a:hover {
+	color: green;
+	/*font-weight: 700;*/
+	text-decoration: none;
+}
+
+.projectName {
+	text-transform: uppercase;
+	font-size: 16px;
+	padding: 13px;
+}
+
+.projectName a {
+	color: #FFF;
+	padding: 15px;
+	text-decoration: none;
+}
+
+
+/* home section */
+#home {
+	margin-bottom: 2%;
+	color: #5A5A5E;
+}
+
+#carousel-example-generic {
+	padding-top: 70px;
+}
+
+.container-fluid {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.carousel-caption {
+	/*
+	padding-bottom: 690px;
+	padding-right: 10px;
+	*/
+	padding-bottom: 35%;
+	color: #FFF;
+}
+
+.carousel-caption h3 {
+	font-size: 4em;
+}
+
+.carousel-caption p {
+	font-size: 2.25em;
+}
+
+/* about section */
+#about {
+	padding-top: 4%;
+	margin-bottom: 12%;
+	color: #5A5A5E;
+}
+
+.about-image {
+	display: inline-block;
+	float: left;
+	/*border: 6px solid gray;*/
+	position: relative;
+	top: 6px;
+	left: 4px;
+	text-align: center;
+}
+
+.skills {
+	background-color: #5AD4C2;
+	color: #FFF;
+	/*height: 280px;*/
+	padding: 10px;
+}
+
+.column {
+	/*width: 30%;*/
+	display: inline-block;
+	float: left;
+	/*margin-left: 2%;*/
+}
+
+.main_text {
+	clear: both;
+	padding-top: 20px;
+	/*width: 88%;*/
+}
+
+.main_text p {
+	font-size: 1.25em;
+}
+
+/*#skill_list {
+	margin-left: 10px;
+}*/
+
+.intro p {
+	font-size: 2.5em; /*adjusted for IE */
+	font-weight: 100;
+	-webkit-margin-before: 0;
+}
+
+.skills h3 {
+	text-align: center;
+	text-transform: uppercase;
+}
+
+/* contact section */
+#contact {
+	padding-top: 3%;
+	margin-bottom: 2%;
+	background-image: url("../img/golden-gate-bridge.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	color: white;
+	height: 100%;	
+}
+
+.email, .address, .phone {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.icon a {
+	color: white;
+}
+
+.icon a:hover {
+	color: green;
+	text-decoration: none;
+}
+
+.icon h1 {
+	font-size: 1.75em;
+}
+
+.glyphicon {
+	padding-right: 8px;
+}
+
+#info {
+	display: inline-block;
+	/*float: left;*/
+}
+
+.contact-intro p {
+	font-size: 1.25em;
+	font-weight: 100;
+}
+
+.email h1 {
+	font-weight: 800;
+	text-transform: uppercase;
+}
+
+.address h1 {
+	font-weight: 100;
+}
+
+.phone h1 {
+	font-weight: 800;
+}
+
+#contact-form {
+	display: inline-block;
+	/*padding-left: 7.5%;
+	width: 58%;*/
+}	
+
+/*
+.form-control {
+	width: 60%;
+}
+*/
+
+/*
+#map-canvas {
+	text-align: center;
+	left: 25%;
+}
+*/
+
+.message-box {
+	color: #5A5A5E;
+}
+
+#char-count {
+	padding-top: 15px;
+	font-size: 1.25em;
+}
+
+#visible-comment {
+	font-size: 1.25em;
+}
+
+.youtube-video {
+	/*clear: both;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+	*/
+}
+
+.btn-default {
+	background-color: black;
+	color: white;
+}
+
+.btn-default:hover {
+	background-color: green;
+	color: white;
+}
+
+/* work section */
+#work {
+	padding-top: 4%;
+	margin-bottom: 6%;
+	color: #5A5A5E;
+}
+
+#work p {
+	font-size: 1.25em;
+}
+
+.image {
+	box-sizing: border-box;
+	border: 2px solid pink;
+	width: 200px;
+	height: 200px;
+	margin-left: 10px;
+	margin-right: 5px;
+	margin-top: 5px;
+	margin-bottom: 30px;
+	display: inline-block;
+	position: relative;
+}
+
+.info {
+	display: inline-block;
+	color: #A1D490;
+	font-family: Futura;
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 0.5em;
+	line-height: 1.6;
+	position: absolute;
+	top: 15%;
+	left: 22%;
+}
+
+.proj-title {
+	font-weight: 100;
+}
+
+.text {
+	padding-top: 30px;
+}
+
+.col-md-3, .col-xs-6 {
+	padding: 2%;
+}
+
+.img-reponsive {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+/* faq section */
+#faq {
+	padding-top: 6%;
+	color: #5A5A5E;
+}
+
+.learn-more {
+	float: left;
+	text-align: left;
+	padding-left: 15px;
+	padding-top: 0px;
+	padding-bottom: 20px;
+}
+
+table, th, td {
+	border: 2px solid black;
+}
+
+.products-table {
+	width: 100%;
+	margin-bottom: 30px;
+	font-size: 1em;
+}
+
+.products-table th, td {
+	padding: 8px;
+}
+
+.modal-button {
+	float: right;
+	padding: 15px;
+}
+
+.modal-body {
+	height: 500px;
+}
+
+#resume {
+	padding: 10px;
+	height: 100%;
+	width: 100%;
+}
+
+#plugin {
+	background-color: white;
+}
+
+.panel-default>.panel-heading {
+	background-color: #22B9F0;
+}
+
+.panel-title {
+	font-size: 1.5em;
+	font-weight: 600;
+}
+
+.panel-title a {
+	text-decoration: none;
+}
+
+.panel-body {
+	font-size: 1.25em;
+}
+
+/* footer section */
+footer {
+	height: 50px;
+	background-color: #888888;
+	padding-right: 35px;
+	padding-top: 15px;
+}
+
+.footer-content {
+	float: right;
+	padding-right: 15px;
+}
+
+/*Typography*/
+h1, h2, h3 {
+	font-family: 'Roboto Slab', 'Source Sans Pro', 'PT Sans', sans-serif;
+}
+
+p, li {
+	font-family: Helvetica, Palatino, Garamond, serif;
+}
