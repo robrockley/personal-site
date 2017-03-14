@@ -46,7 +46,7 @@ body {
 }
 
 .navbar a:hover {
-	color: green;
+	/*color: green;*/
 	/*font-weight: 700;*/
 	text-decoration: none;
 }
@@ -96,11 +96,29 @@ body {
 	font-size: 2.25em;
 }
 
+.carousel-caption a {
+	text-decoration: none;
+}
+
+.carousel-caption a:hover {
+	background-color: black;
+	text-decoration: none;
+}
+
 /* about section */
 #about {
 	padding-top: 4%;
 	margin-bottom: 12%;
 	color: #5A5A5E;
+}
+
+#about a {
+	text-decoration: none;
+}
+
+#about a:hover {
+	background-color: black;
+	text-decoration: none;
 }
 
 .about-image {
@@ -142,7 +160,7 @@ body {
 }*/
 
 .intro p {
-	font-size: 2.5em; /*adjusted for IE */
+	font-size: 1.75em; /*adjusted for IE */
 	font-weight: 100;
 	-webkit-margin-before: 0;
 }
