@@ -230,7 +230,11 @@ body {
 	display: inline-block;
 	/*padding-left: 7.5%;
 	width: 58%;*/
-}	
+}
+
+#map-container {
+	padding-bottom: 32px;
+}
 
 /*
 .form-control {
