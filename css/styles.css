@@ -51,22 +51,33 @@ body {
 	text-decoration: none;
 }
 
+.navbar-header {
+   padding-top: 1.3%;
+}
+
+.navbar-nav {
+   padding-top: 0.6%
+}
+
 .projectName {
-	text-transform: uppercase;
 	font-size: 16px;
-	padding: 13px;
+	padding: 0px 13px;
 }
 
 .projectName a {
 	color: #FFF;
-	padding: 15px;
+	padding: 0px 15px;
 	text-decoration: none;
+   text-transform: none;
 }
 
+.projectName a:hover {
+   text-transform: uppercase;
+}
 
 /* home section */
 #home {
-	margin-bottom: 2%;
+	/*margin-bottom: 2%;*/
 	color: #5A5A5E;
 }
 
@@ -80,11 +91,7 @@ body {
 }
 
 .carousel-caption {
-	/*
-	padding-bottom: 690px;
-	padding-right: 10px;
-	*/
-	padding-bottom: 35%;
+	margin-bottom: 50%;
 	color: #FFF;
 }
 
@@ -108,8 +115,13 @@ body {
 /* about section */
 #about {
 	padding-top: 4%;
-	margin-bottom: 12%;
-	color: #5A5A5E;
+	padding-bottom: 48%;
+	background-image: url("../img/bg-images/color-blocks-min.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	color: white;
+	height: 100%;
+   
 }
 
 #about a {
