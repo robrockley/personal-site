@@ -68,11 +68,11 @@ body {
 	color: #FFF;
 	padding: 0px 15px;
 	text-decoration: none;
-   text-transform: none;
+    text-transform: none;
 }
 
 .projectName a:hover {
-   text-transform: uppercase;
+   	text-transform: uppercase;
 }
 
 /* home section */
@@ -116,7 +116,7 @@ body {
 #about {
 	padding-top: 4%;
 	padding-bottom: 48%;
-	background-image: url("../img/bg-images/color-blocks-min.jpg");
+	background-image: url("../img/bg-images/deep-blue-sea.jpg");
 	background-attachment: fixed;
 	background-size: cover;
 	color: white;
